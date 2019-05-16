@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/icon/ictoco.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Welcome to TOCOTOCO</title>
+</head>
+
+<body>
+    <!-- BANNER -->
+    <div id="banner">
+        <img src="Images/Banner/banner3.jpg">
+        <!-- <img src="./Images/Giao hang/gh.jpg" alt=""> -->
+    </div>
+
+    <!-- THANH CHỌN -->
+    <nav>
+        <ul>
+            <li class="chon"><a href="Index.html">Trang Chủ</a></li>
+            <li class="chon"><a href="GioiThieu.html">Giới Thiệu</a></li>
+            <li class="chon">
+                <a href="SanPham.html">Sản Phẩm <img id="themsp" src="Images/icon/xuong.png" alt=""></a>
+                <ul id="dsach">
+                    <li class="menu"> <img src="./Images/icon/list.png" alt=""> <a href="TraSua.html">Trà Sữa</a></li>
+                    <!-- <li class="menu"> <img src="./Images/icon/list.png" alt=""> <a href="DaXay.html">Đá Xay</a></li> -->
+                    <li class="menu"> <img src="./Images/icon/list.png" alt=""> <a href="Tra.html">Trà - Đá Xay</a></li>
+                    <li class="menu"> <img src="./Images/icon/list.png" alt=""> <a href="Topping.html">Topping</a></li>
+                </ul>
+            </li>
+            <!-- <li class="chon"><a href="BanChay.html">Bán Chạy Nhất</a></li> -->
+            <li class="chon"><a href="UuDai.html">Ưu Đãi</a></li>
+            <!-- <li class="chon"><a href="#ChinhSach">Chính Sách</a></li> -->
+            <li class="chon"><a href="LienHe.html">Liên Hệ</a></li>
+            <!-- <li><img src="Images/Kinh lup/kl2.png" alt=""></li> -->
+            <!-- <li class="chon"><a href="#ourstory">Our story</a></li> -->
+            <!-- <li class="chon"><a href="#lienhe">Liên hệ</a></li> -->
+            <li><input type="text" id="timkiem" placeholder="Search...."></li>
+        </ul>
+    </nav>
+
+    <!-- NỘI DUNG -->
+    <section>
+        <div id="banchay">
+            <p>SẢN PHẨM BÁN CHẠY</p>
+            <marquee behavior="scroll" direction="right" scrollamount="15" scrolldelay="100" onMouseMove="stop()"
+                onMouseOut="start()">
+                <table>
+                    <tr class="classsanpham">
+
+                        <td class="tdsanpham"><div class="divchuaanh">
+                            <img class="hinhbanchay" src="Images/sanpham/Tra/blacktea.jpg" alt="">
+                        </div>
+                            <p>TRÀ ĐEN - BLACKTEA</p>
+                            <br>
+                            <p>40.000 VNĐ</p>
+                            <button class="btngiohang" name="button" type="button">Thêm vào giỏ hàng</button>
+                        </td>
+                        <td class="tdsanpham"><div class="divchuaanh">
+                            <img class="hinhbanchay" src="Images/sanpham/TraSua/Panda.jpg" alt="">
+                        </div>
+                            <p>TRÀ SỮA PANDA</p>
+                            <br>
+                            <p>55.000VNĐ</p>
+                            <button class="btngiohang" name="button" type="button">Thêm vào giỏ hàng</button>
+                        </td>
+
+                        <td class="tdsanpham"><div class="divchuaanh">
+                            <img class="hinhbanchay" src="Images/sanpham/Tra/creamcheeseroyal.jpg" alt="">
+                        </div>
+                            <p>TRÀ CREAMCHEESE ROYAL</p>
+                            <br>
+                            <p>40.000VNĐ</p>
+                            <button class="btngiohang" name="button" type="button">Thêm vào giỏ hàng</button>
+                        </td>
+
+                        <td class="tdsanpham"><div class="divchuaanh">
+                            <img class="hinhbanchay" src="Images/sanpham/TraSua/tranchausoi.jpg" alt="">
+                        </div>
+                            <p>TRÀ SỮA TRÂN CHÂU SỢI</p>
+                            <br>
+                            <p>50.000VNĐ</p>
+                            <button class="btngiohang" name="button" type="button">Thêm vào giỏ hàng</button>
+                        </td>
+
+                        <td class="tdsanpham"><div class="divchuaanh">
+                            <img class="hinhbanchay" src="Images/sanpham/Tra/olongthaicuc.jpg" alt="">
+                        </div>
+                            <p>TRÀ Ô-LÔNG</p>
+                            <br>
+                            <p>50.000VNĐ</p>
+                            <button class="btngiohang" name="button" type="button">Thêm vào giỏ hàng</button>
+                        </td>
+
+                        <td class="tdsanpham"><div class="divchuaanh">
+                            <img class="hinhbanchay" src="Images/sanpham/TraSua/suongsao.jpg" alt="">
+                        </div>
+                            <p>TRÀ SỮA KIM CƯƠNG ĐEN</p>
+                            <br>
+                            <p>45.000VNĐ</p>
+                            <button class="btngiohang" name="button" type="button">Thêm vào giỏ hàng</button>
+                        </td>
+                    </tr>
+                </table>
+            </marquee>
+        </div>
+
+        <table>
+            <tr class="classsanpham">
+                <p id="trsanpham">Trà Sữa</p>
+            </tr>
+
+            <tr class="classsanpham">
+                <td class="tdsanpham"><div class="divchuaanh">
+                    <img class="hinhsanpham" src="Images/sanpham/TraSua/Panda.jpg" alt="">
+                </div>
+                    <p>TRÀ SỮA PANDA</p>
+                    <br>
+                    <p>55.000VNĐ</p>
+                    <button class="btngiohang" name="button" type="button">Thêm vào giỏ hàng</button>
+                </td>
+
+                <td class="tdsanpham"><div class="divchuaanh">
+                    <img class="hinhsanpham" src="Images/sanpham/TraSua/Tranchauhg.jpg" alt="">
+                </div>
+                    <p>TRÀ SỮA TRÂN CHÂU ĐEN</p>
+                    <br>
+                    <p>50.000VNĐ</p>
+                    <button class="btngiohang" name="button" type="button">Thêm vào giỏ hàng</button>
+                </td>
+
+                <td class="tdsanpham"><div class="divchuaanh">
+                    <img class="hinhsanpham" src="Images/sanpham/TraSua/tranchausoi.jpg" alt="">
+                </div>
+                    <p>TRÀ SỮA TRÂN CHÂU SỢI</p>
+                    <br>
+                    <p>50.000VNĐ</p>
+                    <button class="btngiohang" name="button" type="button">Thêm vào giỏ hàng</button>
+                </td>
+
+                <td class="tdsanpham"><div class="divchuaanh">
+                    <img class="hinhsanpham" src="Images/sanpham/TraSua/suongsao.jpg" alt="">
+                </div>
+                    <p>TRÀ SỮA KIM CƯƠNG ĐEN</p>
+                    <br>
+                    <p>45.000VNĐ</p>
+                    <button class="btngiohang" name="button" type="button">Thêm vào giỏ hàng</button>
+                </td>
+            </tr>
+
+            <tr class="classsanpham">
+                <td class="tdsanpham"><div class="divchuaanh">
+                    <img class="hinhsanpham" src="Images/sanpham/TraSua/matchadaudo.jpg" alt="">
+                </div>
+                    <p>TRÀ SỮA BA ANH EM</p>
+                    <br>
+                    <p>55.000VNĐ</p>
+                    <button class="btngiohang" name="button" type="button">Thêm vào giỏ hàng</button>
+                </td>
+
+                <td class="tdsanpham"><div class="divchuaanh">
+                    <img class="hinhsanpham" src="Images/sanpham/TraSua/tshokkaido.jpg" alt="">
+                </div>
+                    <p>TRÀ SỮA HOKKAIDO</p>
+                    <br>
+                    <p>50.000VNĐ</p>
+                    <button class="btngiohang" name="button" type="button">Thêm vào giỏ hàng</button>
+                </td>
+
+                <td class="tdsanpham"><div class="divchuaanh">
+                    <img class="hinhsanpham" src="Images/sanpham/TraSua/dau.jpg" alt="">
+                </div>
+                    <p>TRÀ SỮA DÂU</p>
+                    <br>
+                    <p>40.000VNĐ</p>
+                    <button class="btngiohang" name="button" type="button">Thêm vào giỏ hàng</button>
+                </td>
+
+                <td class="tdsanpham"><div class="divchuaanh">
+                    <img class="hinhsanpham" src="Images/sanpham/TraSua/tsbaanhem.jpg" alt="">
+                </div>
+                    <p>TRÀ ĐEN - BLACKTEA</p>
+                    <br>
+                    <p>40.000VNĐ</p>
+                    <button class="btngiohang" name="button" type="button">Thêm vào giỏ hàng</button>
+                </td>
+            </tr>
+        </table>
+
+    </section>
+
+    <!-- LIÊN HỆ VÀ GIỎ HÀNG -->
+
+    <table id="kecuoi">
+        <tr>
+            <td>
+                <img src="Images/Banner/lienhe.png" alt="">
+            </td>
+
+            <td>
+                <p>LIÊN KẾT VỚI CHÚNG TÔI</p>
+                <a href="https://www.facebook.com/profile.php?id=100006177555754"><img class="lienket"
+                        src="Images/icon/face.jpg" alt=""> </a>
+                <a href="https://www.instagram.com/doyenlinh917/"><img class="lienket" src="Images/icon/insta.jpg"
+                        alt=""> </a>
+
+            </td>
+
+            <td id="giohang">
+                <img src="./Images/Giao hang/gh.jpg" alt="">
+            </td>
+        </tr>
+    </table>
+
+
+
+    <!-- CHÂN WEB -->
+    <footer>
+        <p>@2019 Trà Sữa TOCOTOCO - Hotline: 0909 990 099 - Địa chỉ: 176, Cống Quẹo, Long Tân, Dầu Tiếng, Bình Dương</p>
+    </footer>
+</body>
+
+</html>
